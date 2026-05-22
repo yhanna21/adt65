@@ -673,6 +673,91 @@ iframe{
     }
 
 }
+    /* DRESS NOTE */
+
+.dress-note{
+    max-width:700px;
+    margin:0 auto 45px auto;
+
+    font-size:1rem;
+    line-height:1.9;
+
+    color:#6F7685;
+}
+
+/* PALETTE */
+
+.palette{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:22px;
+}
+
+/* EACH COLOR */
+
+.swatch-wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    gap:10px;
+}
+
+/* COLOR */
+
+.swatch{
+    width:72px;
+    height:72px;
+
+    border-radius:50%;
+
+    box-shadow:
+    0 10px 20px rgba(0,0,0,0.12);
+
+    border:
+    3px solid rgba(255,255,255,0.9);
+
+    transition:0.35s ease;
+}
+
+.swatch:hover{
+    transform:
+    translateY(-6px)
+    scale(1.08);
+}
+
+/* LABEL */
+
+.swatch-wrapper span{
+    font-family:'Cinzel', serif;
+
+    font-size:0.62rem;
+    letter-spacing:1.5px;
+
+    color:#6D7890;
+
+    text-transform:uppercase;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .palette{
+        gap:16px;
+    }
+
+    .swatch{
+        width:58px;
+        height:58px;
+    }
+
+    .swatch-wrapper span{
+        font-size:0.52rem;
+    }
+
+}
 
 </style>
 </head>
@@ -811,7 +896,7 @@ June 2, 2026 • 6:00 PM
 <br><br>
 
 <strong>VENUE</strong><br>
-4TH Floor, AURA CONDOTEL<br>
+4th Floor,AURA CONDOTEL<br>
 Km. 1, Roxas City, Capiz
 
 </div>
@@ -824,48 +909,145 @@ Km. 1, Roxas City, Capiz
 
 <!-- DRESS CODE -->
 
-<section>
+<section class="section">
 
 <div class="container reveal">
 
-<div class="section-title">
-ATTIRE GUIDELINES
-</div>
+<div class="card">
 
-<div class="section-text">
-Semi-Formal in Shades of Blue
-</div>
+<h2 class="section-title">
+DRESS CODE
+</h2>
+
+<p class="section-text dress-note">
+
+The palette below serves only as inspiration.  
+There are many elegant shades of blue that guests may choose to wear for the celebration.
+
+</p>
 
 <div class="palette">
 
-<div class="color">
+<div class="swatch-wrapper">
 <div class="swatch" style="background:#0A192F"></div>
-<span>MIDNIGHT</span>
+<span>Midnight</span>
 </div>
 
-<div class="color">
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#002147"></div>
+<span>Oxford</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#003153"></div>
+<span>Prussian</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#1D2D44"></div>
+<span>Navy</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#051094"></div>
+<span>Admiral</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#002395"></div>
+<span>Imperial</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#0F4D92"></div>
+<span>Yale</span>
+</div>
+
+<div class="swatch-wrapper">
 <div class="swatch" style="background:#1034A6"></div>
-<span>EGYPTIAN</span>
+<span>Egyptian</span>
 </div>
 
-<div class="color">
+<div class="swatch-wrapper">
 <div class="swatch" style="background:#274472"></div>
-<span>ROYAL</span>
+<span>Royal</span>
 </div>
 
-<div class="color">
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#0F52BA"></div>
+<span>Sapphire</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#0047AB"></div>
+<span>Cobalt</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#26619C"></div>
+<span>Lapis</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#2A52BE"></div>
+<span>Cerulean</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#1560BD"></div>
+<span>Denim</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#1E456E"></div>
+<span>Aegean</span>
+</div>
+
+<div class="swatch-wrapper">
 <div class="swatch" style="background:#005A9C"></div>
-<span>AZURE</span>
+<span>Azure</span>
 </div>
 
-<div class="color">
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#016064"></div>
+<span>Ocean</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#005F6A"></div>
+<span>Peacock</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#367588"></div>
+<span>Teal</span>
+</div>
+
+<div class="swatch-wrapper">
 <div class="swatch" style="background:#4682B4"></div>
-<span>STEEL</span>
+<span>Steel</span>
 </div>
 
-<div class="color">
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#4A627A"></div>
+<span>Slate</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#5D8AA8"></div>
+<span>Air Force</span>
+</div>
+
+<div class="swatch-wrapper">
+<div class="swatch" style="background:#536872"></div>
+<span>Cadet</span>
+</div>
+
+<div class="swatch-wrapper">
 <div class="swatch" style="background:#8A9AAB"></div>
-<span>DUSTY</span>
+<span>Dusty</span>
+</div>
+
 </div>
 
 </div>
@@ -935,30 +1117,89 @@ height="1673">
 
 <!-- MUSIC -->
 
+<!-- MUSIC -->
+
 <audio id="bgMusic" loop>
-<source src="music.mp3" type="audio/mpeg">
+    <source src="siral.mp3" type="audio/mpeg">
 </audio>
 
 <button id="musicBtn">♪</button>
 
+
 <script>
 
-/* ENVELOPE */
+/* =========================
+   ELEMENTS
+========================= */
 
 const overlay = document.getElementById('envelope-overlay');
 
-overlay.addEventListener('click',()=>{
+const music = document.getElementById('bgMusic');
+
+const musicBtn = document.getElementById('musicBtn');
+
+
+/* =========================
+   ENVELOPE OPEN
+========================= */
+
+overlay.addEventListener('click', async () => {
+
+    /* PLAY MUSIC */
+
+    try{
+
+        await music.play();
+
+        musicBtn.innerHTML = '♫';
+
+    }catch(err){
+
+        console.log('Music play blocked:', err);
+
+    }
+
+    /* OPEN ENVELOPE */
 
     overlay.classList.add('open');
 
-    setTimeout(()=>{
-        overlay.style.display='none';
+    setTimeout(() => {
+
+        overlay.style.display = 'none';
+
         document.body.classList.remove('locked');
-    },1000);
+
+    }, 1000);
 
 });
 
-/* SCROLL PROGRESS */
+
+/* =========================
+   MUSIC BUTTON
+========================= */
+
+musicBtn.addEventListener('click', () => {
+
+    if(music.paused){
+
+        music.play();
+
+        musicBtn.innerHTML = '♫';
+
+    }else{
+
+        music.pause();
+
+        musicBtn.innerHTML = '♪';
+
+    }
+
+});
+
+
+/* =========================
+   SCROLL PROGRESS
+========================= */
 
 window.addEventListener('scroll', () => {
 
@@ -975,34 +1216,44 @@ window.addEventListener('scroll', () => {
 
 });
 
-/* REVEAL */
+
+/* =========================
+   REVEAL ANIMATION
+========================= */
 
 function reveal(){
 
-    let reveals = document.querySelectorAll('.reveal');
+    const reveals = document.querySelectorAll('.reveal');
 
-    reveals.forEach((el)=>{
+    reveals.forEach((el) => {
 
-        let windowHeight = window.innerHeight;
-        let top = el.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        const top = el.getBoundingClientRect().top;
 
         if(top < windowHeight - 100){
+
             el.classList.add('active');
+
         }
 
     });
 
 }
 
-window.addEventListener('scroll',reveal);
+window.addEventListener('scroll', reveal);
+
 reveal();
 
-/* COUNTDOWN */
+
+/* =========================
+   COUNTDOWN TIMER
+========================= */
 
 const targetDate =
 new Date("Jun 2, 2026 18:00:00").getTime();
 
-setInterval(()=>{
+setInterval(() => {
 
     const now = new Date().getTime();
 
@@ -1012,49 +1263,36 @@ setInterval(()=>{
     Math.floor(distance / (1000 * 60 * 60 * 24));
 
     const hours =
-    Math.floor((distance % (1000 * 60 * 60 * 24))
-    / (1000 * 60 * 60));
+    Math.floor(
+        (distance % (1000 * 60 * 60 * 24))
+        / (1000 * 60 * 60)
+    );
 
     const minutes =
-    Math.floor((distance % (1000 * 60 * 60))
-    / (1000 * 60));
+    Math.floor(
+        (distance % (1000 * 60 * 60))
+        / (1000 * 60)
+    );
 
     const seconds =
-    Math.floor((distance % (1000 * 60))
-    / 1000);
+    Math.floor(
+        (distance % (1000 * 60))
+        / 1000
+    );
 
     document.getElementById('days').innerHTML =
-    days < 10 ? '0'+days : days;
+    days < 10 ? '0' + days : days;
 
     document.getElementById('hours').innerHTML =
-    hours < 10 ? '0'+hours : hours;
+    hours < 10 ? '0' + hours : hours;
 
     document.getElementById('minutes').innerHTML =
-    minutes < 10 ? '0'+minutes : minutes;
+    minutes < 10 ? '0' + minutes : minutes;
 
     document.getElementById('seconds').innerHTML =
-    seconds < 10 ? '0'+seconds : seconds;
+    seconds < 10 ? '0' + seconds : seconds;
 
-},1000);
-
-/* MUSIC */
-
-const music = document.getElementById('bgMusic');
-const musicBtn = document.getElementById('musicBtn');
-
-let playing = false;
-
-musicBtn.addEventListener('click',()=>{
-
-    if(!playing){
-        music.play();
-        playing = true;
-    }else{
-        music.pause();
-        playing = false;
-    }
-
-});
+}, 1000);
 
 </script>
 
